@@ -6,7 +6,7 @@
 trigger:
 - none
 
-pool: 'vasupool'
+pool: 'pavanppool'
 
 variables:
   buildPlatform: 'Any CPU'
