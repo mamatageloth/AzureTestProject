@@ -6,8 +6,7 @@
 trigger:
 - none
 
-pool:
-  vmImage: 'windows-latest'
+pool: 'vasupool'
 
 variables:
   buildPlatform: 'Any CPU'
