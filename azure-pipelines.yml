@@ -47,8 +47,8 @@ steps:
     zipAfterPublish: false
 
 - task: PublishBuildArtifacts@1
-name: 'PublishBuildArtifacts'
-displayName: 'Publish Build Artifacts'
+  name: 'PublishBuildArtifacts'
+  displayName: 'Publish Build Artifacts'
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'AzureTestProject'
